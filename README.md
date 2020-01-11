@@ -1,24 +1,17 @@
-# README
+# Instalation
+Create a .env file in the repository folder with the db user/password
+```
+DATABASE_USERNAME= ""
+DATABASE_PASSWORD= ""
+```
+Type the following commands in the repository folder
+```
+bundle install
+rake db:create
+rake db:migrate
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you want some awesome contact examples
+```
+rake db:seed
+```
