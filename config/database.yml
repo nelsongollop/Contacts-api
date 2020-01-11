@@ -13,7 +13,7 @@ development:
 
 test:
   <<: *defaults
-  database: <%= ENV.fetch('DATABASE_NAME', 'contacts') %>
+  database: <%= ENV.fetch('DATABASE_NAME', 'contacts_test') %>
 
 production:
   <<: *defaults
